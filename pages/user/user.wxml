@@ -1,0 +1,35 @@
+<!--pages/user/user.wxml-->
+<view class="avatar_wrapper">
+    <image class="avatar" src="/images/avatar.png"></image>
+    <view class="user_text">
+        <view class="username"> Qingyun🐑🐑 </view>
+        <view class="user_location"> 北京 </view>
+    </view>
+</view>
+
+<view class="buttonGroup">
+    <view class="myButton">
+        <image class="buttonIcon" src="/images/user/comment.png"></image>
+        <view class="buttonText"> 我的点评 </view>
+    </view>
+    <view class="myButton">
+        <image class="buttonIcon" src="/images/user/order.png"></image>
+        <view class="buttonText"> 我的订单 </view>
+    </view>
+    <view class="myButton">
+        <image class="buttonIcon" src="/images/user/favorite.png"></image>
+        <view class="buttonText"> 我的收藏 </view>
+    </view>
+    <view class="myButton">
+        <image class="buttonIcon" src="/images/user/coin.png"></image>
+        <view class="buttonText"> 我的积分 </view>
+    </view>
+</view>
+
+
+<view class="buttonGroup">
+    <view class="myButton">
+        <image class="buttonIcon" src="/images/user/profile.png"></image>
+        <view class="buttonText"> 个人信息 </view>
+    </view>
+</view>

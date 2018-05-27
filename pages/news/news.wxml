@@ -1,0 +1,18 @@
+<!--pages/news/news.wxml-->
+
+<swiper class="top_news_swiper" indicator-dots="true"
+autoplay="true" interval="5000" duration="800">
+    <block wx:for="{{topNewsList}}">
+        <swiper-item >
+            <image class="top_news_image_bg" style="width: 100%; height: 100%" mode="aspectFill"  src="{{item.firstImage}} "> </image>
+        </swiper-item>
+    </block>
+</swiper>
+<view class="normal_news_wrapper">
+<view class="normal_news"  bindtap='clickNews' data-id="{{item.id}}" wx:for="{{normalNewsList}}">
+    <view class="normal_news_title">{{item.title}}</view>
+    <image class="normal_news_iamge" mode="aspectFill" src="{{item.firstImage}}"> </image>
+    <view class="normal_news_time"> {{item.date}} </view> 
+</view>
+</view>
+

@@ -1,0 +1,48 @@
+{
+    "pages": [
+        "pages/type/type",
+        "pages/index/index",
+        "pages/user/user",
+        "pages/product/product",
+        "pages/comment/comment",
+        "pages/race/race",
+        "pages/news/news"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#186AAE",
+        "navigationBarTitleText": "体育点评",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#909090",
+        "selectedColor": "#0166B3",
+        "borderStyle": "white",
+        "list": [
+            {
+                "selectedIconPath": "images/tab/homeSelected.png",
+                "iconPath": "images/tab/homeUnselected.png",
+                "pagePath": "pages/index/index",
+                "text": "首页"
+            },
+            {
+                "selectedIconPath": "images/tab/typeSelected.png",
+                "iconPath": "images/tab/typeUnselected.png",
+                "pagePath": "pages/type/type",
+                "text": "分类"
+            },
+            {
+                "selectedIconPath": "images/tab/newsSelected.png",
+                "iconPath": "images/tab/newsUnselected.png",
+                "pagePath": "pages/news/news",
+                "text": "资讯"
+            },
+            {
+                "selectedIconPath": "images/tab/userSelected.png",
+                "iconPath": "images/tab/userUnselected.png",
+                "pagePath": "pages/user/user",
+                "text": "我的"
+            }
+        ]
+    }
+}

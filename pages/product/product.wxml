@@ -1,0 +1,41 @@
+<!--pages/detailForProduct/product.wxml-->
+<view class="header">
+    <image class="productImage" mode="aspectFill" src="{{product.showImage}}"></image>
+    <view style='display:flex; flex-direction: column; padding-right:20rpx;' >
+        <view class="productName"> {{product.name}} </view>
+        <view class="starContainer">
+            <image class="star" id="star1" wx:if="{{product.score >= 1}}" src="/images/star1.png"></image>
+            <image class="star" id="star2" wx:if="{{product.score >= 2}}" src="/images/star1.png"></image>
+            <image class="star" id="star3" wx:if="{{product.score >= 3}}" src="/images/star1.png"></image>
+            <image class="star" id="star4" wx:if="{{product.score >= 4}}" src="/images/star1.png"></image>
+            <image class="star" id="star5" wx:if="{{product.score >= 5}}" src="/images/star1.png"></image>
+        </view>
+    
+        <view class="headerTextContainer">
+            <view class="headerText"> 场地: </view>
+            <view class="headerText"> 教练: </view>
+            <view class="headerText"> 场地: </view>
+        </view>
+    </view>
+</view>
+
+<view class="button" id="location">
+    <image id="locationIcon"  mode="aspectFill" src="/images/index/location.png"> </image>
+    <view id="buttonText"> 地址: 太原市小店区学府街132号华宇百花谷5楼</view>
+    <image id="rightIcon"  mode="aspectFill" src="/images/rightArrow.png"> </image>
+</view>
+
+<view class="button" id="location">
+    <image id="commentIcon"  mode="aspectFill" src="/images/user/comment.png"> </image>
+    <view id="buttonText"> 网友点评</view>
+    <image id="rightIcon"  mode="aspectFill" src="/images/rightArrow.png"> </image>
+</view>
+
+<view class="description">
+    <text space='true' decode='true'>&emsp;&emsp;作为太原首家商业真冰滑冰场，世纪星滑冰场开业现场大咖云集，山西省体育局局长苏亚君，华宇集团董事长赵华山，华宇百花谷商业中心总经理赵屹松，全国政协委员、花样滑冰教父姚滨，中国滑冰/滑雪协会副主席朱承翼，世纪星董事长范军，建行太原开发区支行副行长王培栋，世纪星太原公司总经理赵子铭共同出席了开业剪彩仪式。仪式中，中国滑冰/滑雪协会副主席朱承翼、全国政协委员姚滨分别授予世纪星滑冰场“冰上项目后背人才培养单位”“国家花样滑冰等级测试制度推广荣誉单位”荣誉授牌。</text>
+</view>
+
+<view class="myComment">
+    <image src="/images/user/comment.png" class="myCommentIcon"> </image>
+    <view class="myCommentText">我的点评</view>
+</view>

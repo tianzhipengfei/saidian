@@ -1,0 +1,124 @@
+/* pages/race/race.wxss */
+page{
+    background: #F5F5F5;
+}
+
+.header{
+    background: white;
+    width: 100%;
+    height: 400rpx auto;
+    display: flex;
+    padding-bottom: 20rpx;
+}
+
+.raceImage{
+    width: 300rpx;
+    height: 300rpx;
+    margin-top: 50rpx;
+    margin-left: 50rpx;
+    float: left;
+}
+
+.raceName{
+    float: left;
+    font-size: 45rpx;
+    line-height: 60rpx;
+    margin-top: 50rpx;
+    margin-left: 30rpx;
+}
+
+.starContainer{
+    float: left;
+    margin-left: 30rpx;
+}
+
+.star{
+    width: 40rpx;
+    height: 40rpx;
+    position: relative;
+    top: 20rpx;
+}
+
+.headerTextContainer{
+    float: left;
+    width: 370rpx;
+    margin-left: 30rpx;
+    margin-top: 30rpx;
+}
+
+.headerText{
+    line-height: 50rpx;
+    font-size: 35rpx;
+}
+
+
+.button{
+    margin-top: 20rpx;
+    width: 710rpx;
+    height: 100rpx auto;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+    padding-top: 10rpx;
+    padding-bottom: 10rpx;
+}
+
+#dateIcon{
+    width: 70rpx;
+    height: 70rpx;
+    margin-right: 20rpx;
+}
+
+#buttonText{
+    line-height: 56rpx;
+    font-size: 40rpx;
+    width: 609rpx;
+    padding-left: 10rpx;
+}
+
+#rightIcon{
+    width: 70rpx;
+    height: 70rpx;
+}
+
+#pathIcon{
+    width: 70rpx;
+    height: 70rpx;
+    margin-right: 20rpx;
+}
+
+#commentIcon{
+    width: 45rpx;
+    height: 45rpx;
+    margin-right: 20rpx;
+}
+
+.description{
+    width: 690rpx;
+    height: 100% auto;
+    padding: 40rpx;
+    margin-top: 20rpx;
+    background: white;
+    padding-bottom: 140rpx;
+}
+
+.myComment{
+    position: fixed;
+    width: 730rpx;
+    height: 100rpx;
+    background: white;
+    bottom: 0rpx;
+    z-index: 111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10rpx #F5F5F5 solid;
+}
+
+.myCommentIcon{
+    width: 80rpx;
+    height: 80rpx;
+    margin: 10rpx;
+}

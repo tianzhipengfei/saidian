@@ -1,0 +1,42 @@
+<!--pages/comment/comment.wxml-->
+<view class="productName">北京马拉松</view>
+<view class="starBox">
+    <view class="starItem">
+        <view class="starType">赛道</view>
+        <view class="starContainer">
+            <image class="star" id="star1" src="/images/star0.png"></image>
+            <image class="star" id="star1" src="/images/star0.png"></image>
+            <image class="star" id="star1" src="/images/star0.png"></image>
+            <image class="star" id="star1" src="/images/star0.png"></image>
+            <image class="star" id="star1" src="/images/star0.png"></image>
+        </view>
+    </view>
+    <view class="starItem">
+        <view class="starType">后勤</view>
+        <view class="starContainer">
+            <image class="star" id="star1" src="/images/star0.png"></image>
+            <image class="star" id="star1" src="/images/star0.png"></image>
+            <image class="star" id="star1" src="/images/star0.png"></image>
+            <image class="star" id="star1" src="/images/star0.png"></image>
+            <image class="star" id="star1" src="/images/star0.png"></image>
+        </view>
+    </view>
+    <view class="starItem">
+        <view class="starType">总体满意度</view>
+        <view class="starContainer" id="totalComStar">
+            <image class="star" id="star1" src="/images/star0.png"></image>
+            <image class="star" id="star1" src="/images/star0.png"></image>
+            <image class="star" id="star1" src="/images/star0.png"></image>
+            <image class="star" id="star1" src="/images/star0.png"></image>
+            <image class="star" id="star1" src="/images/star0.png"></image>
+        </view>
+    </view>
+</view>
+
+<view class="textarea-wrp">
+    <textarea auto-focus="true" placeholder="留下您的评价吧"/>
+</view>
+
+<view class="addPhotoContainer">
+    <image src="/images/uploadPhoto.png" class="addPhoto"/>
+</view>
